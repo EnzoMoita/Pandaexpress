@@ -16,27 +16,27 @@ export function SettingsTabs() {
             <TabItem
               isSelected={currentTab === 'tab1'}
               value="tab1"
-              title="My details"
+              title="Meus detalhes"
             />
             <TabItem
               isSelected={currentTab === 'tab2'}
               value="tab2"
-              title="Profile"
+              title="Perfil"
             />
             <TabItem
               isSelected={currentTab === 'tab3'}
               value="tab3"
-              title="Password"
+              title="Senhas"
             />
             <TabItem
               isSelected={currentTab === 'tab4'}
               value="tab4"
-              title="Team"
+              title="Time"
             />
             <TabItem
               isSelected={currentTab === 'tab5'}
               value="tab5"
-              title="Plan"
+              title="Plano"
             />
             <TabItem
               isSelected={currentTab === 'tab6'}
@@ -51,12 +51,12 @@ export function SettingsTabs() {
             <TabItem
               isSelected={currentTab === 'tab8'}
               value="tab8"
-              title="Notifications"
+              title="Notificações"
             />
             <TabItem
               isSelected={currentTab === 'tab9'}
               value="tab9"
-              title="Integrations"
+              title="Integrações"
             />
             <TabItem
               isSelected={currentTab === 'tab10'}
