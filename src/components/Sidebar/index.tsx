@@ -32,15 +32,15 @@ export function Sidebar() {
             <Input.Prefix>
               <Search className="h-5 w-5 text-zinc-500" />
             </Input.Prefix>
-            <Input.Control type="text" placeholder="Search" />
+            <Input.Control type="text" placeholder="Buscar" />
           </Input.Root>
 
           <Navigation />
 
           <div className="mt-auto flex flex-col gap-6">
             <nav className="flex flex-col gap-1">
-              <NavItem icon={LifeBuoy} title="Support" />
-              <NavItem icon={Cog} title="Settings" />
+              <NavItem icon={LifeBuoy} title="Suporte" />
+              <NavItem icon={Cog} title="Configurações" />
             </nav>
 
             <UsedSpaceWidget />

@@ -7,16 +7,16 @@ export function Profile() {
   return (
     <div className="flex items-center gap-3">
       <img
-        src="https://github.com/diego3g.png"
+        src="https://github.com/EnzoMoita.png"
         className="h-10 w-10 rounded-full"
         alt=""
       />
       <div className="flex flex-col">
         <span className="block text-sm font-semibold text-zinc-700 dark:text-zinc-100">
-          Diego Fernandes
+          Enzo Dourado
         </span>
         <span className="block text-sm text-zinc-500 dark:text-zinc-400">
-          diego.schell.f@gmail.com
+          enzosadourado@hotmail.com
         </span>
       </div>
       <Button variant="ghost" className="ml-auto">

@@ -7,7 +7,7 @@ import { Sidebar } from '@/components/Sidebar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Koalas',
+  title: 'Pandas',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
